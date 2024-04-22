@@ -1,0 +1,175 @@
+/* Your CSS file */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+}
+
+/* Your other styles */
+
+
+/* body {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.app-name {
+  color: linear-gradient(
+    90deg,
+    rgba(245, 131, 58, 1) 0%,
+    rgba(238, 59, 101, 1) 80%
+  );
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.login-btn {
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.res-card {
+  width: 280px;
+  margin: 20px 25px 20px 25px;
+  background-color: #f5e3e3;
+  border-radius: 10px;
+}
+
+.res-card:hover {
+  -webkit-box-shadow: 2px -1px 11px 5px rgba(194, 194, 194, 1);
+  -moz-box-shadow: 2px -1px 11px 5px rgba(194, 194, 194, 1);
+  box-shadow: 2px -1px 11px 5px rgba(194, 194, 194, 1);
+  cursor: pointer;
+  width: 282px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.res-content {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.cuisines,
+.cost,
+.rating {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  color: rgb(109, 108, 108);
+}
+.cost {
+  color: green;
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shimmer-card {
+  width: 280px;
+  height: 380px;
+  color: grey;
+  background-color: #e4e9e7;
+  margin: 50px 25px 5px 25px;
+  border-radius: 10px;
+  -webkit-mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%)
+    right/300%100%;
+  mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%) right/300%100%;
+  background-repeat: no-repeat;
+  animation: shimmer 1s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    -webkit-mask-position: left;
+  }
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.avatar {
+  border-radius: 500px;
+  border: 2px solid black;
+}
+
+.status {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.status-online {
+  color: green;
+}
+
+.status-offline {
+  color: red;
+}  */
